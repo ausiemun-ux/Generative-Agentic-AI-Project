@@ -59,11 +59,11 @@ The design follows two constraints set at the outset: agents enhance coordinatio
 
 | File | What it contains |
 |---|---|
-| `pulse_synchronizer.csv` | [Describe: e.g. sample forecast-update inputs and agent recommendations] |
-| `flow_equalizer.csv` | [Describe] |
-| `talent_stabilizer.csv` | [Describe] |
-| `voice_harmonizer_v2.csv` | [Describe] |
-| `flow equalizer.xlsx` | [Describe — consider renaming to `flow_equalizer_summary.xlsx`, no spaces] |
+| `pulse_synchronizer.csv` | [sample forecast-update inputs and agent recommendations] |
+| `flow_equalizer.csv` | [Detects and resolves supply chain / fulfillment delays] |
+| `talent_stabilizer.csv` | [	Surfaces early retention-risk signals for workforce planning] |
+| `voice_harmonizer_v2.csv` | [Triages and routes recurring customer complaint patterns] |
+| `flow equalizer.xlsx` | [xlsx doc] |
 
 ## Tools Used
 
