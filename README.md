@@ -60,10 +60,9 @@ The design follows two constraints set at the outset: agents enhance coordinatio
 | File | What it contains |
 |---|---|
 | `pulse_synchronizer.csv` | [sample forecast-update inputs and agent recommendations] |
-| `flow_equalizer.csv` | [Detects and resolves supply chain / fulfillment delays] |
-| `talent_stabilizer.csv` | [	Surfaces early retention-risk signals for workforce planning] |
-| `voice_harmonizer_v2.csv` | [Triages and routes recurring customer complaint patterns] |
-| `flow equalizer.xlsx` | [xlsx doc] |
+| `flow_equalizer.csv` | [supplier delivery records with expected vs. actual dates, reliability scores, and defect rates — feeds the agent that catches supply chain delays early] |
+| `talent_stabilizer.csv` | [store-level employee data (tenure, performance, satisfaction, overtime, attrition) — feeds the agent that surfaces retention risk ] |
+| `voice_harmonizer_v2.csv` | [customer complaint records with sentiment scores, response times, and resolution outcomes — feeds the agent that triages and routes complaints] |
 
 ## Tools Used
 
@@ -78,4 +77,4 @@ StackAI (multi-agent orchestration) — [add any others: data prep tools, Python
 
 ## Author
 
-Auspicious Munemo — www.linkedin.com/in/auspiciousmunemo — 267-767-6422
+Auspicious Munemo — www.linkedin.com/in/auspiciousmunemo — (267) 767-6422
