@@ -31,10 +31,8 @@ Example structure (using Pulse Synchronizer as the reference agent — replace w
 | **Inputs** | Marketing demand changes, current production schedule, supplier lead times |
 | **Processing Logic** | Checks feasibility of the requested change against current capacity, flags conflicts, proposes the earliest workable release window |
 | **Actions** | Outputs a recommended update schedule and a plain-language impact summary |
-| **Learning Behavior** | [Describe how the agent's suggestions improve over time — e.g. incorporating override patterns] |
+| **Learning Behavior** | [At this proof-of-concept stage, the agent does not self-train. Learning happens through a human feedback loop: every recommendation the agent makes — whether accepted or overridden — is logged, and that acceptance/override pattern is reviewed periodically to recalibrate the agent's decision thresholds (for example, the inventory level or conversion rate that triggers a stockout warning). In a production version, this accumulated outcome data would provide the labeled examples needed to retrain the underlying model, so flagging accuracy improves as more real-world results come in — but that retraining loop is a future-state capability, not part of this prototype.] |
 | **Human Oversight** | All schedule changes require sign-off before execution; no autonomous production changes |
-
-*(Repeat this table, or a condensed version, for Flow Equalizer, Talent Stabilizer, and Voice Harmonizer.)*
 
 ## Governance & Guardrails
 
