@@ -49,9 +49,9 @@ The design follows two constraints set at the outset: agents enhance coordinatio
 
 | Metric | Baseline | Projected with agent |
 |---|---|---|
-| [Metric 1] | | |
-| [Metric 2] | | |
-| [Metric 3] | | |
+| On-time supplier delivery rate | 57.1% of shipments on schedule (avg delay 0.91 days) | ~75-80% — earlier conflict flagging reduces exposure to known unreliable lead times |
+| Average complaint resolution time | 10.6 hrs average response time | ~6-7 hrs — automated triage routes complaints correctly on first contact |
+| High-risk stockout exposure | 18.3% of campaigns launch above 0.15 stockout risk | ~8-10% — inventory-aware sequencing delays or resizes at-risk campaign launches |
 
 ## Repo Contents
 
@@ -64,7 +64,7 @@ The design follows two constraints set at the outset: agents enhance coordinatio
 
 ## Tools Used
 
-StackAI (multi-agent orchestration) — [add any others: data prep tools, Python, etc.]
+StackAI (multi-agent orchestration) — [data prep tools, Advanced Excel.]
 
 ## What This Project Demonstrates
 
