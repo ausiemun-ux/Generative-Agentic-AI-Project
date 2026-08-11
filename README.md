@@ -45,8 +45,6 @@ The design follows two constraints set at the outset: agents enhance coordinatio
 
 ## Estimated Business Impact
 
-*(Replace with your own estimate per the assignment's Step 4 — e.g. reduction in rework/airfreight cost, improved on-time fulfillment, shorter decision cycles, increased cross-functional trust. Use your own numbers, not the case's illustrative example.)*
-
 | Metric | Baseline | Projected with agent |
 |---|---|---|
 | On-time supplier delivery rate | 57.1% of shipments on schedule (avg delay 0.91 days) | ~75-80% — earlier conflict flagging reduces exposure to known unreliable lead times |
